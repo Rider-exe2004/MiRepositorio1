@@ -3,7 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { acercadeComponent } from './pages/acercade/acercade.component';
 
-const routes: Routes = [{path:'',component:InicioComponent},
+const routes: Routes = [
+  {path:'',component:InicioComponent},
   {path:'acercade',component:acercadeComponent}];
 
 @NgModule({
