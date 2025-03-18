@@ -7,6 +7,10 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CardproductoComponent } from './components/cardproducto/cardproducto.component';
+import { CardproductosComponent } from './components/cardproductos/cardproductos.component';
+import { CardproductoTarjetaComponent } from './components/cardproducto-tarjeta/cardproducto-tarjeta.component';
+import { CardbuscadorComponent } from './components/cardbuscador/cardbuscador.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,11 @@ import { FooterComponent } from './components/footer/footer.component';
     InicioComponent,
     AboutComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    CardproductoComponent,
+    CardproductosComponent,
+    CardproductoTarjetaComponent,
+    CardbuscadorComponent
   ],
   imports: [
     BrowserModule,
